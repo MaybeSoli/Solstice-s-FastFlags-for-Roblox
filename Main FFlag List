@@ -11,8 +11,8 @@ Main FFlag List I Personally Use
 "FFlagDebugSkyGray": "true",
 "DFIntMaxFrameBufferSize": "4",
 "DFIntTrackCountryRegionAPIHundredthsPercent": 10000,
-"DFIntDataSenderRate": "50",
-"DFIntS2PhysicsSenderRate": "100",
+"DFIntDataSenderRate": "64",
+"DFIntS2PhysicsSenderRate": "128",
 "DFIntTaskSchedulerTargetFps": "3000" ,
 "FFlagGameBasicSettingsFramerateCap5": "True" ,
 "FFlagTaskSchedulerLimitTargetFpsTo2402": "False",
@@ -23,21 +23,19 @@ Main FFlag List I Personally Use
 
 Singular FastFlags
 
-| Name                                         | Value             |
-|----------------------------------------------|-------------------|
-| FStringRemoteAnimationSmoothingStrategy      | ExponentialDecay  |
-| DFIntDebugFRMQualityLevelOverride            | 1                 |
-| FFlagUserCameraControlLastInputTypeUpdate    | false             |
-| FFlagDebugSkyGray                            | true              |
-| DFIntMaxFrameBufferSize                      | 4                 |
-| DFIntTrackCountryRegionAPIHundredthsPercent  | 10000             |
-| DFIntDataSenderRate                          | 50                |
-| DFIntS2PhysicsSenderRate                     | 100               |
-| DFIntTaskSchedulerTargetFps                  | 3000              |
-| FFlagGameBasicSettingsFramerateCap5          | True              |
-| FFlagTaskSchedulerLimitTargetFpsTo2402       | False             |
-| FIntTerrainArraySliceSize                    | 0                 |
-| FLogNetwork                                  | 7                 |
-| FFlagDebugGraphicsPreferD3D11FL10            | True              |
-
-
+| Flag Name                                     | Value            | Description                                                                                                        |
+|-----------------------------------------------|------------------|--------------------------------------------------------------------------------------------------------------------|
+| FStringRemoteAnimationSmoothingStrategy       | ExponentialDecay | Sets the smoothing algorithm for remote animations. "ExponentialDecay" likely smooths animation changes over time. |
+| DFIntDebugFRMQualityLevelOverride             | 1                | Overrides the quality level and puts it on the lowest value (1) while still letting you have any render distance.  |
+| FFlagUserCameraControlLastInputTypeUpdate     | false            | Controls whether the user camera control updates based on the last input type; disables this feature if false.     |
+| FFlagDebugSkyGray                             | true             | Makes the sky gray and increases FPS.                                                                              |
+| DFIntMaxFrameBufferSize                       | 4                | Sets the maximum frame buffer size and 4 is a good value to make gameplay smooth and boosts FPS                    |
+| DFIntTrackCountryRegionAPIHundredthsPercent   | 10000            | Sets tracking granularity for Country/Region API which increases the possibility in getting your region in games.  |
+| DFIntDataSenderRate                           | 50               | Sets how fast data is being sent and increases connection and synchronisation with the game.                       |
+| DFIntS2PhysicsSenderRate                      | 100              | Sets how fast physics related information is being sent to the server and increases physics accuracy.              |
+| DFIntTaskSchedulerTargetFps                   | 3000             | Sets the target FPS and drastically improves FPS. (Probably one of the most important FastFlags).                  |
+| FFlagGameBasicSettingsFramerateCap5           | True             | Uncaps the default FPS of roblox.                                                                                  |
+| FFlagTaskSchedulerLimitTargetFpsTo2402        | False            | Disables a hard cap of 240 FPS in Roblox.                                                                          |
+| FIntTerrainArraySliceSize                     | 0                | Sets the array slice size for terrain data structures; 0 may indicate default or no slicing.                       |
+| FLogNetwork                                   | 7                | Turns Debug Mode on.                                                                                               |
+| FFlagDebugGraphicsPreferD3D11FL10             | True             | Prefers Direct3D 11 Feature Level 10 for graphics for performance.                                                 |
