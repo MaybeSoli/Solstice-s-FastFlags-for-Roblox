@@ -1,6 +1,27 @@
 # Solstice's FastFlag List
 
-(Copy and Paste Below)
+All FastFlags - docs.google.com/document/d/1A4NJSmiVRs8kudHpFDDarIXPnO_dyqZ2oPHZq-cM6zk/edit?tab=t.0
+
+Main FFlag List I Personally Use
+
+{
+"FStringRemoteAnimationSmoothingStrategy": "ExponentialDecay",
+"DFIntDebugFRMQualityLevelOverride": "1",
+"FFlagUserCameraControlLastInputTypeUpdate": "false",
+"FFlagDebugSkyGray": "true",
+"DFIntMaxFrameBufferSize": "4",
+"DFIntTrackCountryRegionAPIHundredthsPercent": 10000,
+"DFIntDataSenderRate": "50",
+"DFIntS2PhysicsSenderRate": "100",
+"DFIntTaskSchedulerTargetFps": "3000" ,
+"FFlagGameBasicSettingsFramerateCap5": "True" ,
+"FFlagTaskSchedulerLimitTargetFpsTo2402": "False",
+"FIntTerrainArraySliceSize": "0",
+"FLogNetwork": "7",
+"FFlagDebugGraphicsPreferD3D11FL10": "True"
+}
+
+Singular FastFlags
 
 | Name                                         | Value             |
 |----------------------------------------------|-------------------|
@@ -19,20 +40,4 @@
 | FLogNetwork                                  | 7                 |
 | FFlagDebugGraphicsPreferD3D11FL10            | True              |
 
-{
-"FStringRemoteAnimationSmoothingStrategy": "ExponentialDecay",
-"DFIntDebugFRMQualityLevelOverride": "1",
-"FFlagUserCameraControlLastInputTypeUpdate": "false",
-"FFlagDebugSkyGray": "true",
-"DFIntMaxFrameBufferSize": "4",
-"DFIntTrackCountryRegionAPIHundredthsPercent": 10000,
-"DFIntDataSenderRate": "50",
-"DFIntS2PhysicsSenderRate": "100",
-"DFIntTaskSchedulerTargetFps": "3000" ,
-"FFlagGameBasicSettingsFramerateCap5": "True" ,
-"FFlagTaskSchedulerLimitTargetFpsTo2402": "False",
-"FIntTerrainArraySliceSize": "0",
-"FLogNetwork": "7",
-"FFlagDebugGraphicsPreferD3D11FL10": "True"
-}
 
