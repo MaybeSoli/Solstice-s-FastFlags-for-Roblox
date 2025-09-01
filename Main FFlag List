@@ -1,0 +1,18 @@
+# Solstice's FastFlag List
+
+| Name                                         | Value             |
+|----------------------------------------------|-------------------|
+| FStringRemoteAnimationSmoothingStrategy      | ExponentialDecay  |
+| DFIntDebugFRMQualityLevelOverride            | 1                 |
+| FFlagUserCameraControlLastInputTypeUpdate    | false             |
+| FFlagDebugSkyGray                            | true              |
+| DFIntMaxFrameBufferSize                      | 4                 |
+| DFIntTrackCountryRegionAPIHundredthsPercent  | 10000             |
+| DFIntDataSenderRate                          | 50                |
+| DFIntS2PhysicsSenderRate                     | 100               |
+| DFIntTaskSchedulerTargetFps                  | 3000              |
+| FFlagGameBasicSettingsFramerateCap5          | True              |
+| FFlagTaskSchedulerLimitTargetFpsTo2402       | False             |
+| FIntTerrainArraySliceSize                    | 0                 |
+| FLogNetwork                                  | 7                 |
+| FFlagDebugGraphicsPreferD3D11FL10            | True              |
